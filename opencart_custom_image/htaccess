@@ -1,0 +1,5 @@
+AuthType Basic
+AuthName "Restricted Files phpmyadmin"
+AuthUserFile "/opt/bitnami/phpmyadmin/.htpasswd"
+Require valid-user
+
