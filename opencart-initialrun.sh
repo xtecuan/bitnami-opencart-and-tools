@@ -13,6 +13,7 @@ docker run -d --name opencart \
   --env OPENCART_ENABLE_HTTPS=yes \
   --network opencart-network \
   --volume opencart_data:/bitnami/opencart \
+  --volume opencart_storage_data:/bitnami/opencart_storage \
   opencart-phpmyadmin-img
 
 
