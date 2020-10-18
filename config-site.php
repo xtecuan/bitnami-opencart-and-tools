@@ -1,8 +1,8 @@
 <?php
 // HTTP
-define('HTTP_SERVER', 'http://myopencart.openranger.com/');
+define('HTTP_SERVER', 'http://misitio.com/');
 // HTTPS
-define('HTTPS_SERVER', 'https://myopencart.openranger.com/');
+define('HTTPS_SERVER', 'https://misitio.com/');
 // DIR
 define('DIR_APPLICATION', '/opt/bitnami/opencart/catalog/');
 define('DIR_SYSTEM', '/opt/bitnami/opencart/system/');
@@ -21,8 +21,8 @@ define('DIR_UPLOAD', DIR_STORAGE . 'upload/');
 // DB
 define('DB_DRIVER', 'mysqli');
 define('DB_HOSTNAME', 'mariadb');
-define('DB_USERNAME', 'bn_opencart');
-define('DB_PASSWORD', 'Welcome123');
+define('DB_USERNAME', 'bdusername');
+define('DB_PASSWORD', 'bdpassword');
 define('DB_DATABASE', 'bitnami_opencart');
 define('DB_PREFIX', 'oc_');
 define('DB_PORT', '3306');
